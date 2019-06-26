@@ -10,7 +10,6 @@
             word = False
         End Sub
 
-
         Public Function Remove(ByVal value As String) As Boolean
             Dim final_node As Tree_Node = Find_Node(value)
             If Not (final_node.word) Then
@@ -50,9 +49,7 @@
                 children(position) = New Tree_Node
             End If
         End Sub
-
     End Class
-
 
     Sub Main()
         Dim root As Tree_Node = New Tree_Node
